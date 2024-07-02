@@ -20,8 +20,15 @@ section {
 
 input,
 textarea {
+  border: 1px solid black;
+  border-radius: 2px;
   width: 30%;
+  height: 20px;
   padding: 8px p;
+}
+
+textarea{
+  height: 40px;
 }
 
 button {
