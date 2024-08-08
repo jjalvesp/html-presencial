@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campo Personalizado</title>
+  </head>
+  <body>
+    <h1>Pratica de campo personalizado</h1>
+    <div class="container">
+      <form id="form">
+        <div class="form-group">
+          <label>Produto 1</label>
+          <input
+            type="text"
+            name="produto[]"
+            class="produto"
+            id="produto1"
+            placeholder="Digite o nome do produto"
+          />
+          <input
+            type="text"
+            name="valor_produto[]"
+            class="produto"
+            id="valor_produto1"
+            placeholder="Digite o valor do produto"
+          />
+          <img src="/images/adicionar.jpeg" width="20" id="mais_produtos" />
+        </div>
+        <div id="produtos_adicionais"></div>
+        <br />
+        <label>TOTAL</label>
+        <input type="text" name="total" id="total" />
+        <br />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </body>
+</html>
+
+<script src="script.js"></script>
